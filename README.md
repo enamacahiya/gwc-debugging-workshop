@@ -1,11 +1,11 @@
-# 🚨 Tech Mart: Your First Production Incident
+# Debugging A Web Application
 
-For this workshop, we will simulate students as a software engineering intern at Tech Mart, a fake online store. After the most recently deployment to production, customers have reported **incorrect cart totals** and **failed checkouts**. Your team needs to investigate and restore the checkout experience.
+Workshop Context: Students simulate as software engineering intern at Tech Mart, a fake online store. After teammate's deployment to production, customers reported **incorrect cart totals** and **failed checkouts**. You have to investigate and restore the platform.
 
 ## What you'll practice
 
 - Reproducing a reported bug and recording evidence
-- Using browser developer tools to investigate JavaScript errors
+- Using browser dev tools to investigate JavaScript errors
 - Tracing behavior across JavaScript and HTML files
 - Making targeted fixes and verifying them with regression tests
 - Writing a short, blameless incident postmortem
@@ -22,17 +22,6 @@ For this workshop, we will simulate students as a software engineering intern at
 6. After making your fixes, use `docs/debugging-checklist.md` to verify your work.
 
 No API keys, accounts, servers, or additional dependencies are required.
-
-## Your mission
-
-1. Read `incident-report.md` and follow its checkpoints.
-2. Reproduce the reported behavior **before editing code**.
-3. Record the error or incorrect result, and form a hypothesis about the cause.
-4. Make a focused fix, then retry the same steps.
-5. Complete `debugging-checklist.md` before declaring recovery.
-6. Answer the mini postmortem questions in the incident report.
-
-You may work individually or with a partner. If you get stuck, ask a facilitator for a hint rather than jumping straight to the solution.
 
 ## Project files
 
